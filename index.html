@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./jsCode.js"></script>
+    <title>Escitala Cipher</title>
+</head>
+<body>
+    <h1>- Cifrado Escitala -</h1>
+        <label>Texto: </label>
+        <input type="text" class="txtInput" id="txtWordEncrypt">
+        <br>
+        <label>Filas: </label>
+        <input type="number" class="nmbInput" id="rowsEncrypt" min="1">
+        <label>Columnas: </label>
+        <input type="number" class="nmbInput" id="columnsEncrypt" min="1">
+        <button id ="btn" onclick="encryptWord()">Encrypt</button>
+        <br><br>
+        <h1 id="txtEncrypt"></h1>
+        <h1 id="txtAlert"></h1>
+        
+        <br><br><br>
+
+        <label>Texto cifrado: </label>
+        <input type="text" class="txtInput" id="txtWordDecrypt">
+        <br>
+        <label>Filas: </label>
+        <input type="number" class="nmbInput" id="rowsDecrypt" min="1">
+        <label>Columnas: </label>
+        <input type="number" class="nmbInput" id="columnsDecrypt" min="1">
+        <button id ="btn" onclick="dcryptWord()">Decrypt</button>
+        <br><br>
+        <h1 id="txtDecrypt"></h1>
+        <h1 id="txtAlert2"></h1>
+   
+</body>
+</html>

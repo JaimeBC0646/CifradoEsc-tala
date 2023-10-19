@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+}
+label{
+    font-size: 2rem;
+}
+.txtInput{
+    width: 20rem;
+    border: 2px solid black;
+}
+
+.nmbInput{
+    width: 5rem;
+    border: 2px solid black;
+}
